@@ -1,0 +1,37 @@
+{
+  "name": "@gonzih/skills-legal",
+  "version": "1.0.0",
+  "description": "Claude Code skill suite for lawyers and legal professionals — contract-scanner, research-brief, client-intake, settlement-summary",
+  "keywords": [
+    "claude-code",
+    "claude-code-skills",
+    "legal",
+    "law",
+    "lawyer",
+    "contract",
+    "legal-research",
+    "settlement"
+  ],
+  "homepage": "https://github.com/gonzih/skills-legal#readme",
+  "bugs": {
+    "url": "https://github.com/gonzih/skills-legal/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonzih/skills-legal.git"
+  },
+  "license": "MIT",
+  "author": "Maksim Soltan",
+  "files": [
+    "skills/",
+    "install.js",
+    "llms.txt",
+    "README.md"
+  ],
+  "scripts": {
+    "postinstall": "node install.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

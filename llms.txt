@@ -1,0 +1,35 @@
+# skills-legal
+
+Claude Code skill suite for lawyers and legal professionals.
+
+## Skills
+
+### contract-scanner
+Extract key terms, obligations, risks, and red flags from any contract. Produces a structured summary with risk rating, a plain-English client explanation, and negotiation points.
+
+Triggers: review contract, scan contract, contract analysis, contract risks, read contract, analyze agreement
+
+### research-brief
+Produce a structured legal research memo on any legal issue. Identifies the legal question, applicable law framework, research roadmap (Westlaw/Lexis search terms), arguments for both sides, and IRAC outline — without hallucinating citations.
+
+Triggers: legal research, case research, research memo, find case law, legal brief, research issue
+
+### client-intake
+Guide a structured client intake conversation and produce a professional matter summary memo — facts, preliminary legal issues, jurisdiction, statute of limitations flags, conflicts check info, and engagement letter outline.
+
+Triggers: client intake, new client, intake form, matter summary, new matter, onboard client
+
+### settlement-summary
+Produce a structured settlement analysis memo — damages calculation (economic + non-economic), liability assessment, settlement range with math shown, trial risk/reward analysis, attorney recommendation memo, and plain-English client presentation.
+
+Triggers: settlement summary, settlement memo, case settlement, settlement analysis, mediation prep, settlement recommendation
+
+## Install
+
+```bash
+npm install -g @gonzih/skills-legal
+```
+
+## Disclaimer
+
+All skills are drafting and practice management aids only — not legal advice. Attorney review is required before relying on any output.
