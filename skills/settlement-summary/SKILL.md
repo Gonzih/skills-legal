@@ -206,6 +206,15 @@ Write a plain-language explanation the attorney can share directly with the clie
 
 **Client plain English**: "Your medical bills and lost wages alone are $57,000. Juries in Nevada typically award 2–3 times that for pain and suffering in cases like yours. We think a fair settlement is between $120,000 and $165,000. Going to trial could get you more, but it could also get you less — and it will take another year and cost you more in expenses..."
 
+## Live Data Sources
+
+Use these sources to find comparable verdicts and settlements when calibrating the settlement range:
+
+- **CourtListener docket search** (`courtlistener.com/api/rest/v3/dockets/`) — search for dockets by court, case type, and keyword to identify comparable cases that proceeded to verdict; filter by `date_filed` range to find recent outcomes in the same jurisdiction
+- Example query for comparable PI verdicts in Nevada: `GET /api/rest/v3/dockets/?q="personal+injury"&court=nvd&filed_after=2021-01-01`
+- Review docket entries for PACER-linked documents showing verdict or settlement amounts where publicly available; use these data points to anchor the high-scenario and midpoint values in Step 4
+- Cross-reference CourtListener opinion search for any published opinions discussing damages in the same cause of action to validate multiplier assumptions
+
 ---
 
 > **Disclaimer**: This settlement analysis is a practice management and client counseling tool. All valuations are estimates based on provided facts and general legal knowledge. Attorney judgment, local venue experience, and verified case-specific facts must inform any final settlement recommendation.

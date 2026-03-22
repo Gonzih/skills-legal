@@ -1,6 +1,6 @@
 {
   "name": "@gonzih/skills-legal",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Claude Code skill suite for lawyers and legal professionals — contract-scanner, research-brief, client-intake, settlement-summary",
   "keywords": [
     "claude-code",

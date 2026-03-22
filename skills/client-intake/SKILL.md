@@ -192,6 +192,14 @@ Suggest fee structure based on matter type and complexity:
 
 **Fee suggestion**: Contingency at 33⅓% pre-suit / 40% post-suit, standard Nevada personal injury.
 
+## Live Data Sources
+
+Use these sources to look up accurate statute of limitations periods during Step 4:
+
+- **Cornell LII — Wex SOL by state** (`law.cornell.edu/wex/statute_of_limitations`) — plain-English SOL summaries organized by state and claim type; cross-reference the state-specific entry for personal injury, contract, medical malpractice, employment, and other common practice areas
+- **Cornell LII — State codes** (`law.cornell.edu/states/listing`) — links to each state's official code for verifying the exact statutory citation when populating the SOL table
+- When the jurisdiction or claim type is ambiguous, look up the specific state's entry on Cornell LII before entering a deadline in the matter summary — do not rely on general rules from memory
+
 ---
 
 > **Disclaimer**: This intake summary is a practice management tool. All legal conclusions, SOL calculations, and case assessments require attorney review before reliance.
