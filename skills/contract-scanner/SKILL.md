@@ -115,6 +115,14 @@ Example format:
 
 **Top negotiation point**: Strike or narrow the IP assignment clause to require nexus to your actual job duties.
 
+## Live Data Sources
+
+Use these sources to look up real case law and legal context when analyzing contracts:
+
+- **CourtListener REST API** (`courtlistener.com/api/rest/v3/`) — search for relevant case law by keyword, court, and date range; useful for locating enforcement history of specific clause types (e.g., non-compete enforceability by jurisdiction)
+- **Casetext citation patterns** — when a clause references a statutory scheme, search Casetext for cases citing that statute to find how courts have interpreted the language in practice
+- When researching enforceability of a specific clause, query CourtListener: `GET /api/rest/v3/search/?q="[clause keyword]"&type=o&jurisdiction=[state abbreviation]`
+
 ---
 
 > **Disclaimer**: This analysis is a drafting and review aid only — not legal advice. All contracts should be reviewed by a licensed attorney before signing.

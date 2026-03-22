@@ -138,6 +138,16 @@ Ready-to-fill structure:
 
 **Research roadmap**: Search Westlaw for `"Title VII" AND "retaliation" AND "temporal proximity" /p Nevada` + `"McDonnell Douglas" AND "retaliation" AND "two weeks"`.
 
+## Live Data Sources
+
+Use these sources to find and verify real case law when building the research memo:
+
+- **CourtListener search API** (`courtlistener.com/api/rest/v3/search/`) — full-text search of federal and state opinions; filter by court, date, and jurisdiction; example: `GET /api/rest/v3/search/?q="McDonnell+Douglas"&type=o&court=scotus`
+- **Google Scholar case law** (`scholar.google.com`) — search by doctrine name or statute citation for free; filter to "Case law" and select jurisdiction; useful for locating recent circuit and state supreme court decisions
+- **OpenCasebook** (`opencasebook.org`) — curated open-access casebooks organized by legal topic; helpful for identifying the canonical leading cases in an area of law before running Westlaw searches
+
+When populating the IRAC outline's RULE section, use CourtListener or Google Scholar to retrieve actual opinion language — do not paraphrase from memory.
+
 ---
 
 > **Important**: Never rely on citations in this memo without verifying them in Westlaw, LexisNexis, or Google Scholar. AI models can hallucinate case names and citations. All citations must be verified by the researching attorney before use.
